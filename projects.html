@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>My Portfolio</title>
+    <!-- Font from Google -->
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <!-- Link to css file -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+      <!-- Sidebar -->
+    <div class="sidebar">
+        <ul>
+        <li><a href="home.html"><i class="fas fa-home"></i> Home</a></li>
+        <li><a href="aboutme.html"><i class="fas fa-user"></i> About Me</a></li>
+        <li><a href="projects.html"><i class="fas fa-briefcase"></i> Projects</a></li>
+        <li><a href="contacts.html"><i class="fas fa-envelope"></i> Contacts</a></li>
+        </ul>
+    </div>
+
+
+    <main>
+      <div id="projects" class="container-projects">
+
+        <div id="projects" class="container-projects">
+        <div class="project-box">
+            <h2>AI-powered 3D Cancer Organoid Segmentation </h2>
+            <p><em> Python | Computer Vision | MMSegmentation | UNet | Deep Learning </em></p>
+            <p>This project focuses on the segmentation of cancer organoids cultured in vitro, using Optical Coherence Tomography (OCT) 3D imaging. The goal was to develop an advanced deep learning pipeline that not only segments the organoids in each volume 2D slice but also refines the process through intricate preprocessing and post-processing techniques. By leveraging the UNet architecture, we were able to achieve a significant segmentation accuracy, reaching a Dice Similarity Coefficient (DSC) of 89%. </p>
+            
+            <div class="image-grid">
+              <img src="img/OCD.png">
+              <img src="img/OCDpipeline.png">
+              <img src="img/OCDdenoising.png">
+              <img src="img/OCDunet.png">
+              <img src="img/OCDresult.png">
+            </div>
+        </div>
+        </div>
+        
+        <div id="projects" class="container-projects">
+        <div class="project-box">
+            <h2>Intelligent ICU Extubation Readiness Predictor</h2>
+            <p><em> MATLAB | Excel | Machine Learning | Predictive Modeling </em></p>
+            <p>We developed of a classifier designed to assess whether intubated patients in the Intensive Care Unit (ICU) are ready for extubation. 
+              We explored various data splitting methods to optimize model performance, including random splits, hierarchical clustering, and Self-Organizing Maps (SOM).
+              We also tested and compared several models to determine the best approach for this task, including K-Nearest Neighbors (KNN), Artificial Neural Network (ANN), and Fuzzy Logic. Each model provided valuable insights into the effectiveness of machine learning in the context of ICU patient management.</p>
+              <div class="image-grid">
+                <img src="img/IAM.png">
+                <img src="img/IAMtraining.png">
+                <img src="img/IAMtest.png">
+             </div>
+
+        </div>
+        </div>
+
+        <div id="projects" class="container-projects">
+          <div class="project-box">
+              <h2> Skin Temperature Measurement System Prototype with ATMEGA328P</h2>
+              <p><em> Assembly | ATmega328P | Embedded Programming | Laboratory & Bench Instrumentation </em></p>
+              <p>We designed and programmed of a contact thermometer based on the ATmega328P Arduino1 microcontroller, aimed at measuring and displaying the temperature on a 7-segment display. The ATmega328P is programmed to interact with a temperature sensor, allowing the measurement of temperature in Celsius or Fahrenheit, with the ability to switch between units by pressing a button.
+                A LED is also included to visually indicate the system's power supply voltage, adding an extra layer of feedback to monitor the system's health.</p>
+              <div class="image-grid">
+              <img src="img/PDBP.png">
+              <img src="img/PDBPcelsius.png">
+              <img src="img/PDBPbread.png">
+              <img src="img/PDBPbcode.png">
+              </div>
+          </div>
+          </div>
+        
+        <div id="projects" class="container-projects">
+        <div class="project-box">
+            <h2>Smart Prosthesis: Myoelectric Classifier for Hand Movement Recognition</h2>
+            <p> MATLAB | Data Collection | Time-Series Analysis | Machine Learning</p>
+            <p>This work is centered on the acquisition and analysis of sEMG signals to study control prostheses. We acquired sEMG signals using the Cometa differential sEMG amplifier and implemented an experimental protocol for data acquisition. Statistical analysis was performed on the signals at various levels of maximal contraction to assess myoelectric fatigue.
+              We developed Machine Learning-based classifiers to determine the state of hand opening or closing, providing a foundation for prosthetic control.
+              </p>
+
+            <div class="image-grid">
+            <img src="img/Neuro.jpg">
+            <img src="img/Neuro_segnali.png">
+            <img src="img/Neuro_metriche.png">
+            </div>
+        </div>
+        </div>
+
+
+      </div>
+      
+    </main>
+  </body>
+  </html>
